@@ -41,7 +41,7 @@
 						string Twitterから発行されたコンシューマーシークレット
 						String request_token
 						String request_token_secret
-			戻り値：	リクエストトークンを含む連想配列(成功)またはnull(エラー)
+			戻り値：	アクセストークンを含む連想配列(成功)またはnull(エラー)
 						連想配列には["oauth_token"]と["oauth_token_secret"]が含まれる。
 						これはユーザが認証を取り消さない限り永久に使えるトークンである。
 		8.twitter_getUserInfoを呼び出す
